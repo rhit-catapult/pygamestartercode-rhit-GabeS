@@ -79,3 +79,9 @@ while True:
 #                 dog_bark.play()
 #                 print("dog bark")
 # see at bottom part
+
+
+# background music
+# pygame.mixer.music.play(-1)  = play forever
+#pygame.mixer.music.play(2)   = play twice
+#pygame.mixer.music.stop()   = stop playing
