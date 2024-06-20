@@ -53,7 +53,6 @@ def main():
         #          screen.get_width(), caption1.get_width(), image1.get_height()
         screen.blit(caption1, (screen.get_width() / 2 - caption1.get_width() / 2, image1.get_height() - 4))
 
-        # TODO 7: On your own, create a new bigger font and in white text place a 'funny' message on top of the image.
         screen.blit(caption2, (15, 300))
 
         # Update the screen
