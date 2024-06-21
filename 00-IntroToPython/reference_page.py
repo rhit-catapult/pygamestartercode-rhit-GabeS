@@ -81,7 +81,44 @@ while True:
 # see at bottom part
 
 
+# OOP --> Make Sprite Classes
+# Objects know stuff (instance variables)
+# Objects can do stuff (methods)
+#class Hero:
+  #  def __init__(self, screen: pygame.Surface, x, y, with_umbrella_filename, without_umbrella_filename):
+   #     """ Creates a Hero sprite (Mike) that does not move. If hit by rain he'll put up his umbrella. """
+   #      self.screen = screen
+   #      self.y = y
+   #      self.x = x
+   #      self.image_umbrella = pygame.image.load(with_umbrella_filename)
+   #      self.image_no_umbrella = pygame.image.load(without_umbrella_filename)
+   #      self.last_hit_time = 0
+#(example)
+# Done 16: Initialize this Hero, as follows:
+        #     - Store the screen.
+        #     - Set the initial position of this Hero to x and y.
+        #     - Create an image of this Hero WITH    an umbrella to the given with_umbrella_filename.
+        #     - Create an image of this Hero WITHOUT an umbrella to the given without_umbrella_filename.
+        #     - Set the "last hit time" to 0.
+        #   Use instance variables:
+        #      screen  x  y  image_umbrella   image_no_umbrella  last_hit_time.
+#(steps)
+
+
+# angles
+# speed.x
+#speed.y
+
+
+
+
 # background music
 # pygame.mixer.music.play(-1)  = play forever
 #pygame.mixer.music.play(2)   = play twice
 #pygame.mixer.music.stop()   = stop playing
+
+# getting mouse pos
+# if event.type == pygame.MOUSEBUTTONDOWN:
+ # print(f"you clicked at {event.mouse.get_pos()}")
+ #                click_position = pygame.mouse.get_pos()
+ #                distance_from_circle = distance(click_position, circle_center)
