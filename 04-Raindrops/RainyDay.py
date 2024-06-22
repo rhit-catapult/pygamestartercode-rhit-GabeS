@@ -86,7 +86,7 @@ def main():
     alyssa = hero_module.Hero(screen, 700, 400, "Alyssa_umbrella.png", "Alyssa.png")
     # Done 23: Make a Cloud, named cloud, with appropriate images, starting at position x=300 y=50.
 
-    cloud = Cloud(screen, 300, 50, "another_cloud.png")
+    cloud = Cloud(screen, 300, 50, "../../projectstartercode-revanchassidygabenavaeh/another_cloud.png")
 
     while True:
         clock.tick(60)
