@@ -47,7 +47,7 @@ def main():
     clock = pygame.time.Clock()
     balls = []
     # TODO: Create an instance of the Ball class called ball1
-    for i in range(1, 500):
+    for i in range(1, 100):
         ball1 = Ball(screen)
         balls.append(ball1)
     while True:
